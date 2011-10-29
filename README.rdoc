@@ -4,7 +4,7 @@ Template for Rails 3.0 apps
 
 == Usage
 
-rails new app -m http://github.com/danielvlopes/base_app/raw/master/template.rb
+rails new app -m http://github.com/claudiobm/base_app/raw/master/template.rb
 
 == Public folder strategy
 

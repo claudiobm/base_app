@@ -4,7 +4,7 @@ set :domain_name , "www.appname.com"
 
 # GIT SETTINGS
 set :scm, :git
-set :repository,  "git@github.com:danielvlopes/REPO.git"
+set :repository,  "git@github.com:claudiobm/REPO.git"
 set :branch, "master"
 set :deploy_via, :remote_cache
 

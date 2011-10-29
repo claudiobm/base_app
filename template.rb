@@ -3,7 +3,7 @@ def get_file(file)
 end
 
 def base_app_url
-  "https://github.com/danielvlopes/base_app/raw/master"
+  "https://github.com/claudiobm/base_app/raw/master"
 end
 
 # bundler
