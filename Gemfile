@@ -9,8 +9,8 @@ gem 'devise'
 gem 'paperclip'
 
 group :development, :test do
-  gem "rspec", "2.3.0"
-  gem "rspec-rails", "2.3.0"
+  gem "rspec", "2.0.0"
+  gem "rspec-rails", "2.0.1"
   gem 'ruby-debug'
 end
 
