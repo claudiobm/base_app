@@ -6,10 +6,11 @@ gem 'menu_builder', '0.3.3'
 gem 'mysql2'
 gem 'capistrano'
 gem 'devise'
+gem 'paperclip'
 
 group :development, :test do
-  gem "rspec", "2.3.1"
-  gem "rspec-rails", "2.3.1"
+  gem "rspec", "2.3.0"
+  gem "rspec-rails", "2.3.0"
   gem 'ruby-debug'
 end
 
