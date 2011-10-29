@@ -8,9 +8,8 @@ gem 'capistrano'
 gem 'devise'
 
 group :development, :test do
-  gem 'sqlite3-ruby', :require => 'sqlite3'
-  gem "rspec", "2.0.0"
-  gem "rspec-rails", "2.0.1"
+  gem "rspec", "2.3.1"
+  gem "rspec-rails", "2.3.1"
   gem 'ruby-debug'
 end
 
@@ -18,5 +17,5 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'factory_girl'
-  gem 'steak', '1.0.0.rc.1'
+  gem 'steak', '1.0.1'
 end
