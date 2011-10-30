@@ -29,6 +29,11 @@ get_file "config/deploy/recipes/setup.rb"
 get_file "config/deploy/recipes/passenger.rb"
 get_file "config/deploy/recipes/maintenance.rb"
 
+# libs helper
+get_file "lib/array_helper.rb"
+get_file "lib/string_helper.rb"
+get_file "lib/slugify.rb"
+
 # other downloads
 get_file "config/locales/pt-BR.yml"
 get_file "app/views/layouts/application.html.erb"
