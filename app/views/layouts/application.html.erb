@@ -4,8 +4,8 @@
   <title>Title <%= yield(:title) %></title>
   <%= favicon %>
 
-  <%= stylesheet_link_tag "application" %>
-  <%= javascript_include_tag  "vendor/jquery", "vendor/jquery-ui", "vendor/jquery.placeholder", "rails" %>
+  <%= stylesheet_link_tag "application", 'jquery-ui/humanity/jquery-ui' %>
+  <%= javascript_include_tag  "common/jquery", "common/jquery-ui", "common/jquery.placeholder", "common/jquery.no-conflict", "rails" %>
   <%= csrf_meta_tag %>
 </head>
 <body>

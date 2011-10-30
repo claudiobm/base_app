@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.1'
 
 gem 'menu_builder', '0.3.3'
-gem 'mysql2'
+gem 'mysql2', '0.2.13'
 gem 'capistrano'
 gem 'devise'
 gem "paperclip", "~> 2.3"
