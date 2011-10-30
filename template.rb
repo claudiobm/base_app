@@ -68,6 +68,7 @@ run "mkdir public/javascripts/app public/javascripts/common"
 get_file "public/javascripts/common/PIE.htc"
 get_file "public/javascripts/common/pngfix.js"
 get_file "public/javascripts/common/jquery.placeholder.js"
+# get "http://code.jquery.com/jquery.min.js", "public/javascripts/common/jquery.js"
 
 # scaffold customization
 run "mkdir -p lib/templates/rails/scaffold_controller"

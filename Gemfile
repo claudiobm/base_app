@@ -6,7 +6,9 @@ gem 'menu_builder', '0.3.3'
 gem 'mysql2'
 gem 'capistrano'
 gem 'devise'
-gem 'paperclip'
+gem "paperclip", "~> 2.3"
+gem "kaminari"
+gem 'ckeditor', '3.5.2'
 
 group :development, :test do
   gem "rspec", "2.0.0"
