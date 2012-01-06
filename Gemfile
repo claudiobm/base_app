@@ -7,20 +7,16 @@ gem 'mysql2'
 gem 'sqlite3'
 gem 'capistrano'
 gem 'devise'
-gem "paperclip", "~> 2.3"
+gem "paperclip"
 gem "kaminari"
 gem 'ckeditor', '3.5.2'
 
 group :development, :test do
   gem "rspec-rails"
   gem 'ruby-debug'
-  gem "pry"
 end
 
 group :test do
-  gem 'cucumber'
-  gem 'cucumber-rails', '= 0.3.2'
-  gem 'capybara', '= 0.4.0'
   gem 'database_cleaner', '=0.6.0'
   gem 'factory_girl_rails', '1.4.0'
 
