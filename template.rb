@@ -46,7 +46,7 @@ get_file "app/views/shared/_error_messages.html.erb"
 run "rm -Rf public/index.html"
 run "rm -Rf public/javascripts"
 run "rm -Rf public/stylesheets"
-run "mkdir -P public/javascripts public/stylesheets public/stylesheets/jquery-ui/humanity/images"
+run "mkdir -p public/javascripts public/stylesheets public/stylesheets/jquery-ui/humanity/images"
 
 get_file "public/stylesheets/application.css"
 get_file "public/stylesheets/common.css"

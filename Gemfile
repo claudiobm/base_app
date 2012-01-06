@@ -20,5 +20,4 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'factory_girl'
-  gem 'steak', '1.0.1'
 end
