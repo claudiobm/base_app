@@ -4,6 +4,7 @@ gem 'rails', '3.1.2'
 
 gem 'menu_builder', '0.3.3'
 gem 'mysql2', '0.2.13'
+gem 'sqlite3'
 gem 'capistrano'
 gem 'devise'
 gem "paperclip", "~> 2.3"
