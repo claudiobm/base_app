@@ -17,6 +17,8 @@ group :development, :test do
 end
 
 group :test do
+  gem 'cucumber'
+  gem 'cucumber-rails'
   gem 'database_cleaner', '=0.6.0'
   gem 'factory_girl_rails', '1.4.0'
 

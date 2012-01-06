@@ -8,6 +8,7 @@ end
 
 # bundler
 get_file 'Gemfile'
+get_file 'Guard'
 run 'bundle install'
 
 # capistrano
